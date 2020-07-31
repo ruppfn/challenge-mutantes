@@ -13,7 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("mutant")
+@RequestMapping(
+        value = "mutant",
+        consumes = "Application/json")
 public class MutantController {
 
     @PostMapping
