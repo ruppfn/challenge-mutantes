@@ -11,5 +11,5 @@ curl -X POST -i -d '{"dna": ["aaaa", "aaaa", "aaaa", "aaaa"]}' -H "Content-Type:
 ```
 No mutante (HTTP 403)
 ```bash
-curl -X POST -i -d '{"dna": ["aaca", "cgat", "taga", "tttg"]}' -H "Content-Type: application/json" http://frupp.com.ar/mutant
+curl -X POST -i -d '{"dna": ["aaca", "cgat", "taga", "tttg"]}' -H "Content-Type: application/json" http://frupp.com.ar/mutant  
 ```
